@@ -1,0 +1,13 @@
+모든 구성, x64 플랫폼
+
+C/C++ 추가 포함 디렉터리 H:\DEV\opencv\build\include
+링커 추가 라이브러리 디렌터리 H:\DEV\opencv\build\x64\vc15\lib
+구성 속성 디버깅 환경 PATH=H:\DEV\opencv\build\x64\vc15\bin;%PATH%
+
+Debug 구성
+
+링커 입력 opencv_world440d.lib;
+
+Release 구성
+
+링커 입력 opencv_world440.lib;
