@@ -1,8 +1,5 @@
 #include "pch.h"
 #include "OpencvCLR.h"
-#include <opencv2/opencv.hpp>
-#include <opencv2/highgui.hpp>
-#include <opencv2/core.hpp>
 #include <iostream>
 
 using namespace cv;
@@ -37,5 +34,11 @@ namespace OpencvCLR
 		waitKey(0);
 
 		return 0;
+	}
+
+	void ClrImage::porting()
+	{
+		Mat image;
+		image = imread("test\\test1.png");
 	}
 }
