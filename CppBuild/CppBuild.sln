@@ -5,22 +5,52 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppOpenCV", "CppOpenCV\CppOpenCV.vcxproj", "{14C64C1A-8FDA-44E3-9207-ECD38716B28F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpencvCLR", "OpencvCLR\OpencvCLR.vcxproj", "{81B63530-ACA0-4A45-BE0A-059D4C564E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsOpenCV", "CsOpenCV\CsOpenCV.csproj", "{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Debug|x64.ActiveCfg = Debug|x64
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Debug|x64.Build.0 = Debug|x64
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Debug|x86.ActiveCfg = Debug|Win32
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Debug|x86.Build.0 = Debug|Win32
+		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Release|Any CPU.ActiveCfg = Release|Win32
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Release|x64.ActiveCfg = Release|x64
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Release|x64.Build.0 = Release|x64
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Release|x86.ActiveCfg = Release|Win32
 		{14C64C1A-8FDA-44E3-9207-ECD38716B28F}.Release|x86.Build.0 = Release|Win32
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Debug|x64.ActiveCfg = Debug|x64
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Debug|x64.Build.0 = Debug|x64
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Debug|x86.ActiveCfg = Debug|Win32
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Debug|x86.Build.0 = Debug|Win32
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Release|Any CPU.ActiveCfg = Release|Win32
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Release|x64.ActiveCfg = Release|x64
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Release|x64.Build.0 = Release|x64
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Release|x86.ActiveCfg = Release|Win32
+		{81B63530-ACA0-4A45-BE0A-059D4C564E92}.Release|x86.Build.0 = Release|Win32
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Debug|x86.Build.0 = Debug|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Release|x64.Build.0 = Release|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{642EC64A-AFAC-4B0C-AEE2-38E4F875A1BB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
